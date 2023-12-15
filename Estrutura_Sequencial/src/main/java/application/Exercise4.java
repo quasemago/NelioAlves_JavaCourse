@@ -31,7 +31,7 @@ public class Exercise4 {
         c = sc.nextDouble();
 
         triangulo = a * c / 2.0;
-        circulo = 3.14159 * c * c;
+        circulo = PI * c * c;
         trapezio = (a + b) / 2.0 * c;
         quadrado = b * b;
         retangulo = a * b;
