@@ -37,4 +37,13 @@ public class Product {
     public void setCount(Integer count) {
         this.count = count;
     }
+
+    public Double getTotalPrice() {
+        return getPrice() * getCount();
+    }
+
+    @Override
+    public String toString() {
+        return getName() + ", $" + String.format("%.2f", getPrice()) + ", " + getCount();
+    }
 }
