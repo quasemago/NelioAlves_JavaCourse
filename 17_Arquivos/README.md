@@ -1,2 +1,2 @@
 # Exercício de Fixação - Trabalhando com Arquivos
-![image](./17-exercicio-fixacao)
+![image](./17-exercicio-fixacao.png)
